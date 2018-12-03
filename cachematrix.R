@@ -1,15 +1,17 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Save a matrix in the global environment, then calculate it's inverse.  
 
-## Write a short comment describing this function
+## Saves the inputted matrix into the cache or global encironment.
 
 makeCacheMatrix <- function(x = matrix()) {
-
+        m<<-x
+        
 }
 
 
-## Write a short comment describing this function
+## Returns the inverse of the matrix from the first function.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
+        
+        solve(m)
 }
